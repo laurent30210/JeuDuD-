@@ -1,0 +1,161 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+header {
+    text-align: center;
+}
+h1 {
+    font-size: 4em;
+    padding: .5em;
+    text-transform: uppercase;
+}
+h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1em;
+    background-color: darkgray;
+
+}
+main {
+    flex-grow: 1;
+}
+#btn {
+    font-size: 1.3em;
+    padding: .6em;
+    cursor: pointer;
+    margin: 0.6em;
+}
+#zoneGame {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.zone {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 35%;
+    height: 500px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+}
+.dice {
+    width: 100px;
+    height: 100px;
+    background-image: url(dice-sprite.png);
+    margin: .3em;
+    transition: background-positionX 1s ease-in-out;
+}
+#resultList {
+    width: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleName {
+    font-size: 4em;
+    padding-bottom: .5em;
+    margin-top: 2em;
+}
+#btn_launch {
+    transition: .1s ease-in;
+    margin-bottom: .3em;
+    cursor: pointer;
+}
+.divGameZone {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-around;
+    align-content: center;
+}
+.divZoneGameDice, .divZoneGameResult {
+    margin: 1em;
+    border: 1px solid #000;
+}
+.divZoneGameDice {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.titleResult {
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+}
+.playerName, .dealerName {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.zone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.dice {
+    margin: 1em;
+    background-image: url('/dice-sprite.png');
+} */
